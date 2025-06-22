@@ -19,7 +19,7 @@
 
     var menuBreakPoint = 991;
     var sliderBreakPoint = 991; // It will effect when you have used attribute "data-thumb-slider-md-direction" OR "data-slider-md-direction"
-    var animeBreakPoint = 1199;
+    var animeBreakPoint = 200;
     var headerTransition = 300;  // Header transition effect time
 
     /* ===================================
