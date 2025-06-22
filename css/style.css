@@ -19307,3 +19307,24 @@ footer .footer-navbar .nav-item:last-child a {
     .animated-path {
         fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:500;stroke-dashoffset:0;
     }
+.whatsapp-float {
+  position: fixed;
+  bottom: 90px; /* above scroll-to-top if needed */
+  right: 20px;
+  z-index: 9999;
+}
+
+.whatsapp-float .btn {
+  background-color: #25d366; /* WhatsApp green */
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float .btn:hover {
+  background-color: #1ebea5;
+  text-decoration: none;
+}
