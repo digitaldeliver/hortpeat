@@ -99,7 +99,7 @@
                                     <span class="btn-double-text" data-text="Get a quote">Get a Quote</span>
                                 </span>
                             </a>
-                            <a href="https://www.youtube.com/watch?v=cfXHhfNy7tU" class="text-center d-inline-flex sm-mt-10px sm-mb-10px rounded-circle video-icon-box video-icon-medium popup-vimeo position-relative text-uppercase">
+                            <a href="#products" class="text-center d-inline-flex sm-mt-10px sm-mb-10px rounded-circle video-icon-box video-icon-medium  position-relative text-uppercase">
                                 <span class="video-icon bg-extra-medium-gray me-15px">
                                     <i class="fa-solid fa-play text-base-color"></i>
                                     <span class="video-icon-sonar">
@@ -182,7 +182,7 @@
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section id="products" class="cover-background pb-0" style="background-image: url('images/hortpeat-bg-01.jpg');">
+        <section id="features" class="cover-background pb-0" style="background-image: url('images/hortpeat-bg-01.jpg');">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-8 col-lg-6 col-md-12 last-paragraph-no-margin order-lg-1 order-2" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -231,7 +231,7 @@
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section id="get-quote" class="overflow-visible" style="background-image: url('images/hortpeat-bg-02.jpg');">
+        <section id="products" class="overflow-visible" style="background-image: url('images/hortpeat-bg-02.jpg');">
 
         
 
@@ -1176,7 +1176,7 @@
             
             <!-- Contact Information -->
             <div class="col-sm-9 col-lg-4 ps-30px md-ps-15px md-mb-40px xs-mb-0">
-                <span class="fs-17 fw-500 d-block text-white mb-5px">HortPeat Cocopeat Exporter</span>
+                <span class="fs-17 fw-500 d-block text-white mb-5px">HortPeat Substrates</span>
                 <p class="mb-10px">123 V Valasu, Edappadi TK, Salem Dt, Tamilnadu 637101</p>
                 <p class="mb-10px"><i>Phone:</i><a href="tel:+919025759761" class="text-white">+91 96771 00369</a></p>
                 <p class="mb-10px"><i>Alternate Phone:</i> <a href="tel:+918300461305" class="text-white">+91 63816 84137</a></p>
@@ -1208,14 +1208,14 @@
         </div>
         <!-- end scroll simple -->
         <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-
 
 <script>
+    skrollr.init({
+    mobileCheck: function () {
+        return false; // Force-enable on all devices
+    }
+});
+
     document.addEventListener("DOMContentLoaded", function () {
     anime({
         targets: ".feature-item",
@@ -1277,13 +1277,14 @@
 
     window.addEventListener("scroll", animateOnScroll);
 
-skrollr.init({
-    mobileCheck: function () {
-        return false; // Force-enable on all devices
-    }
-});
 
 </script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 
     </body>
 </html>
